@@ -51,8 +51,8 @@ const addPlugin = (plugin, options) => {
   return releaseConfig.plugins.push([plugin, options]);
 };
 
-!GIT_COMMITTER_NAME && (process.env.GIT_COMMITTER_NAME = "open-sauced[bot]");
-!GIT_COMMITTER_EMAIL && (process.env.GIT_COMMITTER_EMAIL = "63161813+open-sauced[bot]@users.noreply.github.com");
+!GIT_COMMITTER_NAME && (process.env.GIT_COMMITTER_NAME = "ogdev-01[bot]");
+!GIT_COMMITTER_EMAIL && (process.env.GIT_COMMITTER_EMAIL = "63161813+ogdev-01[bot]@users.noreply.github.com");
 
 try {
   const authorName = execSync(`git log -1 --pretty=format:%an ${GITHUB_SHA}`, { encoding: "utf8", stdio: "pipe" });

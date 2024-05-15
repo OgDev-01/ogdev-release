@@ -1,15 +1,14 @@
-name: '@open-sauced/release'
-author: '0-vortex'
-description: 'Run @open-sauced/release on a repo'
+name: "@ogdev/release"
+author: "Ogdev-01"
+description: "Run @ogdev/release on a repo"
 outputs:
   release-tag:
-    description: 'The tag that was released on success'
+    description: "The tag that was released on success"
   release-version:
-    description: 'The version that was released on success'
+    description: "The version that was released on success"
 branding:
-  icon: 'package'
-  color: 'yellow'
+  icon: "package"
+  color: "yellow"
 runs:
-  using: 'docker'
-  image: 'docker://ghcr.io/open-sauced/release:2.4.0'
-
+  using: "docker"
+  image: "docker://ghcr.io/ogdev-01/release:2.4.0"

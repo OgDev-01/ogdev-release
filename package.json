@@ -1,20 +1,20 @@
 {
-  "name": "@open-sauced/release",
-  "version": "2.4.0",
+  "name": "@ogdev/release",
+  "version": "1.0.0",
   "license": "MIT",
   "files": [
     "release.config.js"
   ],
   "main": "release.config.js",
-  "author": "TED Vortex <ted.vortex@gmail.com>",
+  "author": "Ogbonna Sunday <oliviamegan11@gmail.com>",
   "engines": {
     "node": ">=18",
     "npm": ">=8"
   },
-  "bugs": "https://github.com/open-sauced/release/issues",
+  "bugs": "https://github.com/ogdev-01/release/issues",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/open-sauced/release.git"
+    "url": "git+ssh://git@github.com/ogdev-01/release.git"
   },
   "peerDependencies": {
     "semantic-release": ">=21.0.0"
